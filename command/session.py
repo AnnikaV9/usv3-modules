@@ -1,5 +1,5 @@
 #
-#  Admin only command to start sessions on other channels.
+#  Admin only command to manage sessions in other channels.
 #  Logs from individual sessions are not split, so it will
 #  get messy. Clean up of sessions is not done when usv3
 #  exits, which will make logs even messier.
@@ -16,7 +16,7 @@ asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 
 class Module:
-    description = "Start a session on another channel, randomized if not specified"
+    description = "Manage sessions in another channel, randomized if not specified"
     usage = "<start/stop/list> [channel]"
     min_args = 1
     max_args = 2
