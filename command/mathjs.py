@@ -8,7 +8,7 @@ import aiohttp
 
 
 class Module:
-    description = "Evaluates a mathematical expression"
+    description = "Evaluates a math expression"
     usage = "<expression>"
     min_args = 1
 
