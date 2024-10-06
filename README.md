@@ -2,5 +2,7 @@ Possibly useful modules for [usv3-framework](https://github.com/AnnikaV9/usv3-fr
 
 |Module|Description|
 |--|--|
-|[command.coin](https://github.com/AnnikaV9/usv3-modules/blob/master/command/coin.py)|Simple coin flip command.|
-|[command.session](https://github.com/AnnikaV9/usv3-modules/blob/master/command/session.py)|Admin only command to manage sessions in other channels.|
+|[command.coin](./command/coin.py)|Simple coin flip command.|
+|[command.session](./command/session.py)|Admin only command to manage sessions in other channels.|
+|[command.math](./command/math.py)|Command for evaluating math expressions with [numexpr](https://github.com/pydata/numexpr).|
+|[command.mathjs](./command/mathjs.py)|Command for evaluating math expressions with [mathjs.org](https://mathjs.org).|
