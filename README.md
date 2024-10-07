@@ -1,4 +1,4 @@
-Possibly useful modules for [usv3-framework](https://github.com/AnnikaV9/usv3-framework) that are not included in the main repository.
+### A collection of useful modules for [usv3-framework](https://github.com/AnnikaV9/usv3-framework)
 
 Lone modules:
 |Module|Description|
