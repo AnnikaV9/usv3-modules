@@ -15,7 +15,7 @@ class Module:
     alias = "ls"
 
     @staticmethod
-    async def run(bot, namespace, text, args, sender, tripcode, ulevel):
+    async def run(bot, namespace, text, args, sender, trip, ulevel):
         if len(args) == 0:
             pretty_list = ", ".join(bot.online_users).replace("_", "\\_")
             await bot.reply(sender, f"?{bot.config['channel']} - {pretty_list}")

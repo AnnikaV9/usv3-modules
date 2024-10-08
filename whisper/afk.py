@@ -9,7 +9,7 @@ class Module:
     usage = "[reason]"
 
     @staticmethod
-    async def run(bot, namespace, text, args, sender, tripcode, ulevel) -> None:
+    async def run(bot, namespace, text, args, sender, tripcode, ulevel):
         if sender not in bot.namespaces.command.afk.afk_users:
             reason = None
             if args:

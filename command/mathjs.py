@@ -13,7 +13,7 @@ class Module:
     min_args = 1
 
     @staticmethod
-    async def run(bot, namespace, text, args, sender, tripcode, ulevel):
+    async def run(bot, namespace, text, args, sender, trip, ulevel):
         url = "http://api.mathjs.org/v4/"
         data = {
             "expr": " ".join(args),
