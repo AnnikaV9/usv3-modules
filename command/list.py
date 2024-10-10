@@ -13,6 +13,7 @@ class Module:
     usage = "[channel]"
     max_args = 1
     alias = "ls"
+    cooldown = 7
 
     @staticmethod
     async def run(bot, namespace, text, args, sender, trip, ulevel):
