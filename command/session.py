@@ -5,22 +5,25 @@
 #  exits, which will make logs even messier.
 #
 
-import usv3.bot
-import asyncio
-import uvloop
 import random
 import string
+import asyncio
+import uvloop
+
+import usv3.bot
 
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 
 class Module:
-    description = "Manage sessions in another channel, randomized if not specified"
-    usage = "<start/stop/list> [channel]"
-    min_args = 1
-    max_args = 2
-    groups = ["admins"]
+    """
+    desc: 'Manage sessions in another channel, randomized if not specified'
+    usage: '<start/stop/list> [channel]'
+    min_args: 1
+    max_args: 2
+    groups: ['admins']
+    """
 
     @staticmethod
     def on_load(bot, namespace):

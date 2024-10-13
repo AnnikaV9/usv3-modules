@@ -6,7 +6,9 @@ import random
 
 
 class Module:
-    description = "Flips a coin"
+    """
+    desc: 'Flips a coin'
+    """
 
     @staticmethod
     async def run(bot, namespace, text, args, sender, trip, ulevel):

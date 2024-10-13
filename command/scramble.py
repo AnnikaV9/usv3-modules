@@ -7,7 +7,9 @@ import random
 
 
 class Module:
-    description = "Sets a scrambled word for users to solve"
+    """
+    desc: 'Sets a scrambled word for users to solve'
+    """
 
     @staticmethod
     def on_load(bot, namespace):

@@ -4,8 +4,10 @@
 #
 
 class Module:
-    description = "Marks yourself AFK (Away From Keyboard)"
-    usage = "[reason]"
+    """
+    desc: 'Marks yourself AFK (Away From Keyboard)'
+    usage: '[reason]'
+    """
 
     @staticmethod
     def on_load(bot, namespace):

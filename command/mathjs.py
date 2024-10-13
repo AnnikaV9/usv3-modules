@@ -8,9 +8,11 @@ import aiohttp
 
 
 class Module:
-    description = "Evaluates a math expression"
-    usage = "<expression>"
-    min_args = 1
+    """
+    desc: "Evaluates a math expression"
+    usage: "<expression>"
+    min_args: 1
+    """
 
     @staticmethod
     async def run(bot, namespace, text, args, sender, trip, ulevel):

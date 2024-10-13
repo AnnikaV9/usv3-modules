@@ -5,8 +5,10 @@
 #
 
 class Module:
-    description = "Marks yourself AFK (Away From Keyboard)"
-    usage = "[reason]"
+    """
+    desc: 'Marks yourself AFK (Away From Keyboard)'
+    usage: '[reason]'
+    """
 
     @staticmethod
     async def run(bot, namespace, text, args, sender, tripcode, ulevel):
